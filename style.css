@@ -1,0 +1,1118 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+}
+
+/*Splash Screen for the big screen*/
+
+.background {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+/*setting of a black color background
+on top of the image by using z-index*/
+.blackbox {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.whitebox {
+	position: relative;
+	top: 32%;
+	height: 30%;
+	width: 40%;
+	left: 30%;
+	background-color: #2e3a59;
+	border-radius: 50px;
+}
+
+.info {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	font-family: poppins;
+	position: relative;
+	text-align: center;
+	top: 12%;
+}
+
+.yellowbox {
+	background-color: #ecaf7f;
+	font-family: poppins;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	left: 30%;
+	top: 25%;
+}
+
+.logo {
+	position: relative;
+	left: 42%;
+	top: 6%;
+}
+
+/*Sign Up for the big screen*/
+.body-signup {
+	background-color: #347079;
+}
+.email-input {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 38%;
+	top: 50%;
+	background: rgba(122, 140, 147, 0.78);
+	filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.5));
+	border-radius: 10px;
+}
+.create-an-account {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 36;
+	position: absolute;
+	top: 38%;
+	left: 37%;
+}
+
+.email-input::placeholder {
+	width: 169px;
+	height: 24px;
+	padding-left: 50px;
+
+	top: 297px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #ffffff;
+}
+
+.password-input {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 38%;
+	top: 413px;
+
+	background: rgba(122, 140, 147, 0.78);
+	filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.5));
+
+	border-radius: 10px;
+}
+
+.password-input::placeholder {
+	width: 87px;
+	height: 27px;
+	padding-left: 50px;
+	top: 428px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #ffffff;
+}
+
+.OTP {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 38%;
+	top: 75%;
+
+	background: rgba(122, 140, 147, 0.78);
+	filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.5));
+
+	border-radius: 10px;
+}
+.OTP::placeholder {
+	width: 200px;
+	height: 27px;
+	padding-left: 50px;
+	top: 563px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #ffffff;
+}
+
+.signin {
+	position: absolute;
+	width: 217px;
+	height: 52px;
+	padding-left: 30px;
+	top: 668px;
+
+	background: #ecaf7f;
+	border-radius: 30px;
+	width: 202px;
+	height: 54px;
+	left: 170px;
+	top: 668px;
+	position: absolute;
+	width: 140px;
+	height: 40px;
+	left: 51%;
+	top: 85%;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+
+	color: #2e3a59;
+}
+
+.signin:hover {
+	cursor: pointer;
+}
+
+.text-info {
+	position: absolute;
+	width: 247px;
+	height: 23px;
+	left: 45%;
+	top: 92%;
+
+	font-family: poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 27px;
+
+	color: #ffffff;
+}
+
+.signin-value {
+	position: absolute;
+	width: 61px;
+	height: 23px;
+	left: 48%;
+	top: 95%;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 27px;
+
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.username_icon {
+	position: absolute;
+	top: 349px;
+	left: 541px;
+	z-index: 1;
+}
+
+.password_icon {
+	position: absolute;
+	top: 427px;
+	left: 541px;
+	z-index: 1;
+}
+
+.confirm_password_icon {
+	position: absolute;
+	top: 510px;
+	left: 541px;
+	z-index: 1;
+}
+
+/*Sign In for the big screen*/
+
+.body-signin {
+	background-color: #347079;
+}
+
+.welcome-back {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 36;
+	position: absolute;
+	top: 40%;
+	left: 39.88%;
+}
+
+/*Home Page for the big screen*/
+
+.body-home {
+	background-color: #347079;
+	margin: 0;
+}
+.nav {
+	background-color: #ecaf7f;
+	height: 50px;
+}
+.list {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	position: relative;
+	left: 40%;
+	top: 12px;
+	list-style-type: none;
+	width: 50%;
+	font-family: poppins;
+	color: white;
+	cursor: pointer;
+}
+
+.img-amelia {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 95%;
+	top: 5px;
+	cursor: pointer;
+}
+
+.img-logo {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 34px;
+	top: 2px;
+}
+.bank-info {
+	position: absolute;
+	left: 100px;
+	top: 15px;
+
+	font-family: Poppins;
+	font-style: normal;
+
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #2e3a59;
+}
+.active {
+	color: #2e3a59;
+	font-weight: bold;
+}
+
+.main-img {
+	position: absolute;
+	width: 114px;
+	height: 114px;
+	left: 45.66%;
+	top: 106px;
+	cursor: pointer;
+}
+
+.welcome-amelia {
+	font-family: poppins;
+	font-size: 24px;
+	position: absolute;
+	left: 42%;
+	top: 60px;
+	color: white;
+}
+
+.account-bal {
+	position: absolute;
+	left: 37%;
+	top: 245px;
+	padding-top: 12px;
+	padding-left: 30px;
+	font-family: poppins;
+	color: #686565;
+	width: 351px;
+	height: 82px;
+	background: rgba(255, 255, 255, 0.39);
+	border-radius: 20px;
+}
+
+.account-invest {
+	background: #8b3333;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+	position: absolute;
+	color: white;
+	font-family: poppins;
+	width: 139.5px;
+	height: 35px;
+	padding-left: 45px;
+	padding-top: 5px;
+	left: 55%;
+	top: 26%;
+	cursor: pointer;
+}
+
+.account-amount {
+	color: #8b3333;
+}
+
+.account-info {
+	font-weight: bold;
+}
+
+.box-offers {
+	position: absolute;
+	top: 65%;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.plan {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-size: 24px;
+	position: absolute;
+	top: -36%;
+}
+
+.our-service {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-size: 24px;
+	position: relative;
+	top: 95%;
+	margin-left: 45.55%;
+}
+
+.grey-box {
+	position: absolute;
+	width: 351px;
+	height: 50px;
+	left: 510px;
+	top: 622px;
+
+	background: rgba(254, 239, 239, 0.37);
+	border-radius: 20px;
+	font-family: poppins;
+	color: black;
+	padding-top: 7px;
+	padding-left: 4%;
+	font-size: 21px;
+}
+
+#greybox1 {
+	position: relative;
+	margin-top: 26px;
+	cursor: pointer;
+}
+#greybox2 {
+	position: relative;
+	margin-top: 26px;
+	cursor: pointer;
+}
+#greybox3 {
+	position: relative;
+	margin-top: 26px;
+	cursor: pointer;
+}
+#greybox4 {
+	position: relative;
+	margin-top: 26px;
+	cursor: pointer;
+}
+
+.transactions-icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 530px;
+	top: 744px;
+	z-index: 1;
+}
+
+.tracker-icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 530px;
+	top: 821px;
+	z-index: 1;
+}
+
+.account-icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 530px;
+	top: 897px;
+	z-index: 1;
+}
+
+.card-icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 530px;
+	margin-top: 48.88%;
+	z-index: 1;
+}
+
+.offer {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-size: 24px;
+	position: relative;
+	top: 100%;
+	margin-left: 46%;
+}
+
+.offer-box {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50%;
+	margin-bottom: 5%;
+}
+
+.arrow-left {
+	margin-top: 6%;
+	font-size: 50px;
+}
+
+.arrow-right {
+	margin-top: 6%;
+	font-size: 50px;
+}
+
+#right1 {
+	position: absolute;
+	margin-top: -46%;
+	left: 60%;
+	font-size: 25px;
+}
+
+#right2 {
+	position: absolute;
+	margin-top: -40.44%;
+	left: 60%;
+	font-size: 25px;
+}
+#right3 {
+	position: absolute;
+	margin-top: -34.66%;
+	left: 60%;
+	font-size: 25px;
+}
+
+#right4 {
+	position: absolute;
+	margin-top: -29.2%;
+	left: 60%;
+	font-size: 25px;
+}
+
+/*Transaction Page for the big screen*/
+
+.transaction-body {
+	background-color: #347079;
+}
+
+.link-transaction {
+	text-decoration: none;
+	color: white;
+}
+.beneficiary {
+	position: absolute;
+	width: 182px;
+	height: 20px;
+	left: 47px;
+	top: 172px;
+
+	/* Default / Regular / Body */
+
+	font-family: poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 133% */
+
+	color: #ecaf7f;
+}
+
+.content-box {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px 16px;
+
+	position: absolute;
+	width: 326px;
+	height: 40px;
+	left: 44px;
+	top: 196px;
+
+	background: rgba(122, 140, 147, 0.61);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	color: white;
+}
+
+.content-box2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px 16px;
+
+	position: absolute;
+	width: 326px;
+	height: 40px;
+	left: 44px;
+	top: 280px;
+
+	background: rgba(122, 140, 147, 0.61);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	color: white;
+}
+
+.beneficiary2 {
+	position: absolute;
+	width: 129px;
+	height: 20px;
+	left: 47px;
+	top: 256px;
+
+	/* Default / Regular / Body */
+
+	font-family: poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 133% */
+
+	color: #ecaf7f;
+}
+
+.beneficiary3 {
+	position: absolute;
+	width: 136px;
+	height: 20px;
+	left: 47px;
+	top: 340px;
+
+	/* Default / Regular / Body */
+
+	font-family: poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 133% */
+
+	color: #ecaf7f;
+}
+
+.content-box3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px 16px;
+
+	position: absolute;
+	width: 326px;
+	height: 40px;
+	left: 44px;
+	top: 364px;
+
+	background: rgba(122, 140, 147, 0.61);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	color: white;
+}
+
+.amelia-trans {
+	position: relative;
+	left: 20%;
+	top: -2%;
+}
+
+.dwayne {
+	position: absolute;
+	top: 22%;
+	height: 115px;
+	width: 115px;
+	margin-left: 65%;
+}
+
+.contentbox {
+	position: relative;
+	margin-left: 35%;
+	top: -17%;
+}
+
+.transaction {
+	font-family: poppins;
+	position: absolute;
+	font-size: 24px;
+	left: 44%;
+	top: 60px;
+	color: white;
+}
+
+.content-amount {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px 16px;
+
+	position: absolute;
+	width: 157px;
+	height: 40px;
+	left: 45px;
+	top: 465px;
+
+	background: rgba(122, 140, 147, 0.61);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	color: white;
+}
+
+.boxx {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+
+::placeholder {
+	color: rgba(0, 0, 0, 0.521);
+	font-size: 13px;
+}
+
+.thecard {
+	position: relative;
+	right: -28%;
+	top: 10%;
+}
+
+.paynow {
+	display: flex;
+	align-items: center;
+	padding: 20px 40px;
+	position: absolute;
+	width: 200px;
+	height: 60px;
+
+	background: #ecaf7f;
+
+	border-radius: 14px;
+	color: #2e3a59;
+
+	position: absolute;
+	width: 150px;
+	height: 22px;
+	left: 51%;
+	margin-top: 23.2%;
+	font-family: poppins;
+	font-weight: bold;
+	font-size: 15px;
+
+	color: #2e3a59;
+	cursor: pointer;
+}
+
+/*receipt Page*/
+
+.receipt-body {
+	background-color: #347079;
+}
+
+.grey-bill {
+	position: absolute;
+	width: 600px;
+	height: 450px;
+	left: 400px;
+	top: 156px;
+
+	background: rgba(122, 140, 147, 0.79);
+	border-radius: 12px;
+}
+
+.receipt {
+	font-family: poppins;
+	font-size: 30px;
+	position: absolute;
+	left: 46%;
+	top: 85px;
+	color: white;
+}
+
+.date {
+	position: absolute;
+	right: 80%;
+	font-size: 13px;
+	margin-top: -6%;
+}
+
+.service-fee {
+	position: absolute;
+	right: 72.5%;
+	font-size: 20px;
+	margin-top: 10%;
+}
+
+.internet-charge {
+	position: absolute;
+	right: 64%;
+	font-size: 20px;
+	margin-top: 20%;
+}
+
+.cash-receipt {
+	font-size: 25px;
+	font-family: poppins;
+}
+
+.amount-bill {
+	position: absolute;
+	left: 8%;
+	font-size: 20px;
+	margin-top: 1%;
+}
+
+.details {
+	position: relative;
+	margin-top: 6%;
+}
+
+.totalbill {
+	color: #ffffff;
+	font-size: 34px;
+	position: relative;
+	margin-top: 9%;
+	margin-left: 11%;
+	font-family: bold;
+}
+
+.amount-bill1 {
+	position: relative;
+	margin-left: 60%;
+}
+
+.Service-fee1 {
+	position: relative;
+	margin-left: 60%;
+	margin-top: 5%;
+}
+
+.Internet-Charge1 {
+	position: relative;
+	margin-left: 60%;
+	margin-top: 5%;
+}
+
+.details-amount {
+	position: relative;
+	margin-left: 20%;
+	margin-top: 9%;
+}
+
+.line {
+	position: relative;
+	margin-top: 26px;
+}
+
+.line2 {
+	color: #ffffff;
+	position: relative;
+	margin-left: 11%;
+}
+
+.totalamount {
+	color: #ffffff;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: -7.22%;
+	font-size: 32px;
+}
+
+.the-round {
+	position: absolute;
+	left: 44%;
+	top: 93%;
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+
+	/* Shade / 700 */
+
+	background: #2e3a59;
+}
+
+.share-icon {
+	position: absolute;
+	margin-top: -60%;
+	margin-left: 85%;
+}
+
+.done-icon {
+	position: absolute;
+	margin-top: 21%;
+	margin-left: 44%;
+	z-index: 20;
+	font-size: 30px;
+	color: #347079;
+}
+
+/* Profile Page*/
+.body-profile {
+	background-color: #347079;
+}
+
+.profile {
+	font-family: poppins;
+	font-size: 28px;
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	color: white;
+}
+
+.the-image {
+	position: absolute;
+	margin-top: 6%;
+	margin-left: 44%;
+	height: 130px;
+	width: 130px;
+}
+
+.amelia-name {
+	color: #ffffff;
+	position: absolute;
+	margin-top: 16%;
+	margin-left: 44.96%;
+}
+
+#greybox5 {
+	position: absolute;
+	margin-top: 93%;
+}
+
+.details-box {
+	position: absolute;
+	margin-top: -29%;
+}
+
+.icon1 {
+	position: absolute;
+	margin-left: 32%;
+	font-size: 30px;
+	margin-top: -6%;
+}
+
+.icon2 {
+	position: absolute;
+	margin-left: 67%;
+	font-size: 30px;
+	margin-top: -6%;
+}
+
+/*Tracker Page*/
+
+.body-tracker {
+	background-color: #347079;
+	overflow: hidden;
+}
+
+.tracker {
+	font-family: poppins;
+	font-size: 28px;
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	color: white;
+}
+
+.welcome {
+	position: absolute;
+	width: 200px;
+	height: 15px;
+	margin-top: 8%;
+	left: 43%;
+	font-family: Asap;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ffffff;
+
+	opacity: 0.6;
+}
+
+.AB {
+	position: absolute;
+	width: 150px;
+	height: 18px;
+	margin-left: 44.44%;
+	margin-top: 10%;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #ecaf7f;
+}
+
+.card1 {
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 9%;
+}
+
+.card2 {
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 63%;
+}
+
+.monthly_budget {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 23%;
+	width: 550px;
+}
+
+.inflow {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 29%;
+	width: 150px;
+}
+
+.graph {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 31%;
+	width: 500px;
+}
+
+.trans {
+	position: absolute;
+	margin-left: 58%;
+	margin-top: 23%;
+	width: 500px;
+}
+
+/* Card Page */
+
+.body-card {
+	background-color: #347079;
+}
+
+.wallet {
+	font-family: poppins;
+	font-size: 28px;
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	color: white;
+}
+
+.img-girl {
+	position: absolute;
+	margin-left: 44%;
+	height: 130px;
+	width: 130px;
+	margin-top: 7%;
+}
+
+.graphic {
+	position: absolute;
+	margin-left: 67%;
+	margin-top: 19%;
+}
+
+.amount-savings {
+	color: #ffffff;
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 70%;
+}
+
+.amount-spendings {
+	color: #ffffff;
+	position: absolute;
+	margin-top: 34%;
+	margin-left: 85%;
+}
+.the-graph {
+	position: relative;
+}
+
+.box-grey {
+	position: absolute;
+	margin-top: 21%;
+	margin-left: 37%;
+}
+
+.chart {
+	position: absolute;
+	margin-top: 28%;
+	margin-left: 9%;
+}
+
+/*About Us Page*/
+.body-aboutus {
+	background-color: #347079;
+}
+
+.bank-details {
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 18%;
+	color: #ffffff;
+}
+
+.bank-details2 {
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 22%;
+	width: 800px;
+	background-color: #2e3a59;
+	color: white;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.copyright {
+	position: absolute;
+	margin-top: 28%;
+	margin-left: 68%;
+}
